@@ -1,0 +1,354 @@
+2024-02-20 20:19:01,568 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-20 20:19:42,275 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rays:discovery-server:0.0.1-SNAPSHOT @ C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\pom.xml.
+2024-02-20 20:19:43,968 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rays:service-01:0.0.1-SNAPSHOT @ C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\pom.xml.
+2024-02-20 20:19:44,856 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.pom
+2024-02-20 20:19:44,993 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.pom
+2024-02-20 20:19:45,068 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.pom
+2024-02-20 20:19:45,125 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.pom
+2024-02-20 20:19:45,220 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.2/vavr-parent-0.10.2.pom
+2024-02-20 20:19:45,281 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.2/vavr-parent-0.10.2.pom
+2024-02-20 20:19:45,351 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.pom
+2024-02-20 20:19:45,634 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.pom
+2024-02-20 20:19:45,708 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.pom
+2024-02-20 20:19:45,786 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.pom
+2024-02-20 20:19:45,862 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.pom
+2024-02-20 20:19:45,912 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.pom
+2024-02-20 20:19:45,990 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.pom
+2024-02-20 20:19:46,070 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.pom
+2024-02-20 20:19:46,117 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.pom
+2024-02-20 20:19:46,219 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.pom
+2024-02-20 20:19:46,303 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.pom
+2024-02-20 20:19:46,434 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.pom
+2024-02-20 20:19:46,531 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.pom
+2024-02-20 20:19:46,597 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.pom
+2024-02-20 20:19:46,704 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.pom
+2024-02-20 20:19:46,803 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.pom
+2024-02-20 20:19:46,869 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.pom
+2024-02-20 20:19:46,951 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.pom
+2024-02-20 20:19:47,027 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.pom
+2024-02-20 20:19:47,106 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.pom
+2024-02-20 20:19:47,189 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0.pom
+2024-02-20 20:19:47,255 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0.pom
+2024-02-20 20:19:47,333 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.pom
+2024-02-20 20:19:47,415 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.pom
+2024-02-20 20:19:47,509 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.pom
+2024-02-20 20:19:47,593 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.pom
+2024-02-20 20:19:47,926 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.jar
+2024-02-20 20:19:48,054 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.jar
+2024-02-20 20:19:48,104 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar
+2024-02-20 20:19:50,096 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar
+2024-02-20 20:19:50,152 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar
+2024-02-20 20:19:50,235 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar
+2024-02-20 20:19:50,303 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.jar
+2024-02-20 20:19:50,565 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.jar
+2024-02-20 20:19:50,652 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.jar
+2024-02-20 20:19:50,739 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.jar
+2024-02-20 20:19:50,824 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.jar
+2024-02-20 20:19:50,956 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.jar
+2024-02-20 20:19:51,025 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar
+2024-02-20 20:19:51,354 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar
+2024-02-20 20:19:51,421 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.jar
+2024-02-20 20:19:51,515 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.jar
+2024-02-20 20:19:51,595 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.jar
+2024-02-20 20:19:52,069 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.jar
+2024-02-20 20:19:52,145 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.jar
+2024-02-20 20:19:52,432 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.jar
+2024-02-20 20:19:52,537 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.jar
+2024-02-20 20:19:52,682 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.jar
+2024-02-20 20:19:52,804 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar
+2024-02-20 20:19:52,968 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar
+2024-02-20 20:19:53,043 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0.jar
+2024-02-20 20:19:53,238 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0.jar
+2024-02-20 20:19:53,307 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.jar
+2024-02-20 20:19:53,432 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.jar
+2024-02-20 20:19:53,505 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.jar
+2024-02-20 20:19:53,793 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.jar
+2024-02-20 20:19:55,978 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rays:service-02:0.0.1-SNAPSHOT @ C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-02\pom.xml.
+2024-02-20 20:19:56,402 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rays:config-server:0.0.1-SNAPSHOT @ C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\config-server\pom.xml.
+2024-02-20 20:19:56,856 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rays:api-gateway:0.0.1-SNAPSHOT @ C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\pom.xml.
+2024-02-20 20:20:02,588 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/main/java
+2024-02-20 20:20:02,589 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2024-02-20 20:20:02,589 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2024-02-20 20:20:02,590 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/test/java
+2024-02-20 20:20:04,064 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0-sources.jar
+2024-02-20 20:20:04,235 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0-sources.jar
+2024-02-20 20:20:04,417 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+2024-02-20 20:20:04,626 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-02/src/main/java
+2024-02-20 20:20:04,627 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-02/src/main/resources
+2024-02-20 20:20:04,627 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-02/src/main/resources
+2024-02-20 20:20:04,628 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-02/src/test/java
+2024-02-20 20:20:04,667 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2-sources.jar
+2024-02-20 20:20:05,465 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2024-02-20 20:20:05,465 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-02-20 20:20:05,466 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-02-20 20:20:05,467 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2024-02-20 20:20:05,950 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2-sources.jar
+2024-02-20 20:20:06,223 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-01/src/main/java
+2024-02-20 20:20:06,223 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-01/src/main/resources
+2024-02-20 20:20:06,223 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-01/src/main/resources
+2024-02-20 20:20:06,224 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-01/src/test/java
+2024-02-20 20:20:06,258 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vavr:vavr:0.10.2
+2024-02-20 20:20:06,531 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2-sources.jar
+2024-02-20 20:20:06,627 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2-sources.jar
+2024-02-20 20:20:06,746 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vavr:vavr-match:0.10.2
+2024-02-20 20:20:06,990 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0-sources.jar
+2024-02-20 20:20:07,256 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/main/java
+2024-02-20 20:20:07,256 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2024-02-20 20:20:07,257 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-server/src/main/resources
+2024-02-20 20:20:07,257 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-server/src/test/java
+2024-02-20 20:20:07,290 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0-sources.jar
+2024-02-20 20:20:07,385 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-spring:1.7.0
+2024-02-20 20:20:07,651 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0-sources.jar
+2024-02-20 20:20:07,737 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0-sources.jar
+2024-02-20 20:20:07,911 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-annotations:1.7.0
+2024-02-20 20:20:08,162 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0-sources.jar
+2024-02-20 20:20:08,189 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 39 sec
+2024-02-20 20:20:08,292 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0-sources.jar
+2024-02-20 20:20:08,497 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-consumer:1.7.0
+2024-02-20 20:20:08,758 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0-sources.jar
+2024-02-20 20:20:08,929 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0-sources.jar
+2024-02-20 20:20:09,005 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-core:1.7.0
+2024-02-20 20:20:09,252 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0-sources.jar
+2024-02-20 20:20:09,385 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0-sources.jar
+2024-02-20 20:20:09,506 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+2024-02-20 20:20:09,872 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0-sources.jar
+2024-02-20 20:20:10,130 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0-sources.jar
+2024-02-20 20:20:10,701 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-framework-common:1.7.0
+2024-02-20 20:20:10,992 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0-sources.jar
+2024-02-20 20:20:11,235 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0-sources.jar
+2024-02-20 20:20:11,417 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+2024-02-20 20:20:11,750 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0-sources.jar
+2024-02-20 20:20:11,904 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0-sources.jar
+2024-02-20 20:20:12,514 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+2024-02-20 20:20:12,819 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0-sources.jar
+2024-02-20 20:20:12,878 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:12,878 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:12,884 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-20 20:20:12,915 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-20 20:20:12,919 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:12,919 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:12,919 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-20 20:20:12,950 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0-sources.jar
+2024-02-20 20:20:13,388 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-retry:1.7.0
+2024-02-20 20:20:13,702 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0-sources.jar
+2024-02-20 20:20:13,786 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bulkhead/1.7.0/resilience4j-bulkhead-1.7.0-sources.jar
+2024-02-20 20:20:14,132 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-bulkhead:1.7.0
+2024-02-20 20:20:14,435 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0-sources.jar
+2024-02-20 20:20:14,494 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0-sources.jar
+2024-02-20 20:20:14,789 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-timelimiter:1.7.0
+2024-02-20 20:20:15,321 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:15,321 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:15,322 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-20 20:20:15,324 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-20 20:20:15,327 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:15,327 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:15,327 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\config-server\src\test\resources
+2024-02-20 20:20:15,715 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0-sources.jar
+2024-02-20 20:20:15,885 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0-sources.jar
+2024-02-20 20:20:16,254 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-micrometer:1.7.0
+2024-02-20 20:20:16,263 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vavr:vavr-match:0.10.2
+2024-02-20 20:20:16,269 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-spring:1.7.0
+2024-02-20 20:20:16,281 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-annotations:1.7.0
+2024-02-20 20:20:16,287 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-consumer:1.7.0
+2024-02-20 20:20:16,295 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-core:1.7.0
+2024-02-20 20:20:16,300 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+2024-02-20 20:20:16,304 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-framework-common:1.7.0
+2024-02-20 20:20:16,309 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+2024-02-20 20:20:16,314 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+2024-02-20 20:20:16,319 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-retry:1.7.0
+2024-02-20 20:20:16,324 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-bulkhead:1.7.0
+2024-02-20 20:20:16,329 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-timelimiter:1.7.0
+2024-02-20 20:20:16,334 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.resilience4j:resilience4j-micrometer:1.7.0
+2024-02-20 20:20:20,553 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:20,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:20,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-20 20:20:20,558 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-20 20:20:20,561 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:20,561 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:20,561 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-20 20:20:21,300 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:21,300 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:21,300 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-20 20:20:21,303 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-20 20:20:21,305 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:21,305 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:21,305 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-20 20:20:22,512 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:22,512 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:22,514 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-20 20:20:22,516 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-20 20:20:22,519 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-20 20:20:22,519 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-20 20:20:22,519 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-02\src\test\resources
+2024-02-21 07:47:29,343 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-21 07:48:06,702 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 07:48:06,703 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 07:48:06,714 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 07:48:06,833 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 07:48:06,841 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 07:48:06,841 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 07:48:06,841 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 12:08:29,624 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:08:29,735 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:08:29,736 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 12:08:29,800 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 12:08:29,803 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:08:29,803 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:08:29,803 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 12:08:54,211 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:08:54,211 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:08:54,217 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 12:08:54,294 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 12:08:54,299 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:08:54,299 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:08:54,299 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 12:09:27,164 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:09:27,164 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:09:27,165 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 12:09:27,194 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 12:09:27,211 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:09:27,211 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:09:27,212 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 12:10:42,441 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:10:42,443 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:10:42,443 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 12:10:42,475 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 12:10:42,481 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:10:42,481 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:10:42,481 [Worker-41: Launching demo] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 12:11:14,818 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:11:14,819 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:11:14,819 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 12:11:14,829 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 12:11:14,831 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 12:11:14,832 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 12:11:14,832 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 14:01:06,394 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:01:06,394 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:01:06,412 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:01:06,415 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:01:06,420 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:01:06,421 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:01:06,421 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 14:01:39,428 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:01:39,428 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:01:39,428 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:01:39,429 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:01:39,435 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:01:39,435 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:01:39,436 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 14:08:21,079 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-21 14:08:47,501 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:47,502 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:47,508 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:08:47,553 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:08:47,556 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:47,556 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:47,557 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:08:50,690 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:50,690 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:50,691 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:08:50,751 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:08:50,759 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:50,759 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:50,759 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\config-server\src\test\resources
+2024-02-21 14:08:52,226 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:52,226 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:52,226 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:08:52,260 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:08:52,263 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:52,264 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:52,264 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 14:08:53,699 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:53,699 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:53,699 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:08:53,728 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:08:53,733 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:08:53,733 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:08:53,733 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 14:09:15,676 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:09:15,680 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:09:15,688 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:09:15,709 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:09:15,726 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:09:15,727 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:09:15,727 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:09:36,003 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:09:36,003 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:09:36,004 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:09:36,004 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:09:36,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:09:36,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:09:36,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:10:48,031 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:10:48,032 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:10:48,032 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:10:48,032 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:10:48,034 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:10:48,036 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:10:48,036 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:15:23,021 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-21 14:15:54,312 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:15:54,313 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:15:54,324 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:15:54,405 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:15:54,414 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:15:54,415 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:15:54,415 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:16:00,828 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:00,828 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:00,829 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:16:00,903 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:16:00,910 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:00,910 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:00,910 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\config-server\src\test\resources
+2024-02-21 14:16:02,832 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:02,832 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:02,833 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:16:02,843 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:16:02,848 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:02,848 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:02,849 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 14:16:04,345 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:04,346 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:04,347 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:16:04,392 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:16:04,404 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:04,404 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:04,405 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-01\src\test\resources
+2024-02-21 14:16:05,979 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:05,979 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:05,980 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:16:05,993 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:16:05,997 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:16:05,998 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:16:05,998 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\service-02\src\test\resources
+2024-02-21 14:25:19,872 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-21 14:25:40,727 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:25:40,727 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:25:40,731 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:25:40,781 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:25:40,790 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:25:40,790 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:25:40,791 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:25:44,352 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:25:44,361 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:25:44,362 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:25:44,373 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:25:44,375 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:25:44,376 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:25:44,376 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\discovery-server\src\test\resources
+2024-02-21 14:26:38,091 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:26:38,091 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:26:38,095 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:26:38,096 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-02-21 14:26:38,108 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:26:38,108 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:26:38,108 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources
+2024-02-21 14:27:53,378 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:27:53,379 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:27:53,380 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:27:53,380 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-02-21 14:27:53,384 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-02-21 14:27:53,384 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-02-21 14:27:53,384 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Circuit-Breaker\api-gateway\src\test\resources

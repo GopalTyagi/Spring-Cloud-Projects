@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Open-Feign\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1671193361.index
+3752136225.index
+1167976785.index
+2227838403.index
+984680268.index
+1050042363.index
+2851180925.index
+3120250875.index
+2823450693.index
+821608647.index
