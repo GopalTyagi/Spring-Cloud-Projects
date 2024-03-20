@@ -1,0 +1,84 @@
+package com.rays.common;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.rays.dto.BaseDTO;
+import com.rays.form.BaseForm;
+
+public abstract class BaseCtl<F extends BaseForm, T extends BaseDTO, S extends BaseServiceInt<T>> {
+
+	@Autowired
+	protected S baseService;
+
+	
+	@PostMapping("/save")
+	public ORSResponse save(@RequestBody @Valid F form, BindingResult bindingResult) {
+		System.out.println("228save() run in BaseCtl :: +vipin " + form);
+		ORSResponse res = validate(bindingResult);
+
+		if (res.isSuccess() == false) {
+			return res;
+		}
+		try {
+			T dto = (T) form.getDto();
+			System.out.println("237----------->" + dto);
+			if (dto.getId() != null && dto.getId() > 0) {
+					res.addMessage(" already exist");
+					res.setSuccess(false);
+					return res;
+					baseService.update(dto);
+					}
+			
+
+			 else {
+
+				baseService.add(dto);
+			}
+			res.addData(dto.getId());
+		} catch (Exception e) {
+			res.setSuccess(false);
+			res.addMessage(e.getMessage());
+			e.printStackTrace();
+		}
+		return res;
+	}
+
+	/**
+	 * Gets input error messages and put into REST response
+	 * 
+	 * @param bindingResult
+	 * @return
+	 */
+	public ORSResponse validate(BindingResult bindingResult) {
+		ORSResponse res = new ORSResponse(true);
+		System.out.println("inside the validate method of baseCtl");
+		if (bindingResult.hasErrors()) {
+			System.out.println("BaseCtl ki validate ke error block me");
+			res.setSuccess(false);
+
+			Map<String, String> errors = new HashMap<String, String>();
+
+			List<FieldError> list = bindingResult.getFieldErrors();
+			// Lambda expression Java 8 feature
+			list.forEach(e -> {
+				errors.put(e.getField(), e.getDefaultMessage());
+				System.out.println("Field :: " + e.getField() + "  Message :: " + e.getDefaultMessage());
+			});
+			res.addInputError(errors);
+		}
+		return res;
+
+	}
+}
+
+}

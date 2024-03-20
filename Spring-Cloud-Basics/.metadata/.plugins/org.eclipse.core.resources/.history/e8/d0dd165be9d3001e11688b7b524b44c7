@@ -1,0 +1,73 @@
+package com.rays.common;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.rays.dto.BaseDTO;
+
+public abstract class BaseDAOImpl<T extends BaseDTO> implements BaseDAOInt<T> {
+
+	@PersistenceContext
+	protected EntityManager entityManager;
+
+	public long add(T dto) {
+		entityManager.persist(dto);
+		return dto.getId();
+	}
+
+	public void update(T dto) {
+		entityManager.merge(dto);
+	}
+
+	public void delete(T dto) {
+		entityManager.remove(dto);
+	}
+	
+	public T findByPK(long pk) {
+		T dto = (T) entityManager.find(getDTOClass(), pk);
+		return dto;
+	}
+	
+	private Class getDTOClass() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	protected TypedQuery<T> createCriteria(T dto, UserContext userContext) {
+
+		System.out.println("BaseDao createCriteria run");
+
+		CriteriaBuilder builder = entityManager.getCriteriaBuilder();
+
+		// Create criteria
+		CriteriaQuery<T> cq = builder.createQuery(getDTOClass());
+
+		// Columns information
+		Root<T> qRoot = cq.from(getDTOClass());
+
+		// Column of query
+		cq.select(qRoot);
+
+		// Create where conditions
+		List<Predicate> whereClause = getWhereClause(dto, builder, qRoot);
+
+		// Put organization filter
+		if (dto.isGroupFilter()) {
+			whereClause.add(builder.equal(qRoot.get("orgId"), dto.getOrgId()));
+		}
+		System.out.println(" isgroup skipped......gopal");
+		cq.where(whereClause.toArray(new Predicate[whereClause.size()]));
+
+		List<Order> orderBys = getOrderByClause(dto, builder, qRoot);
+
+		System.out.println("after getOrder By clause........gopal");
+		cq.orderBy(orderBys.toArray(new Order[orderBys.size()]));
+
+		System.out.println("After order by clause.......gopal ");
+		TypedQuery<T> query = entityManager.createQuery(cq);
+		System.out.println("createCriteria end here---....gopal");
+		return query;
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.rays.abc;
+
+import com.rays.dto.BaseDTO;
+
+public interface BaseDAOInt<T extends BaseDTO> {
+
+	public long add(T dto);
+	public void update(T dto) ;
+	public void delete(T dto) ;
+}

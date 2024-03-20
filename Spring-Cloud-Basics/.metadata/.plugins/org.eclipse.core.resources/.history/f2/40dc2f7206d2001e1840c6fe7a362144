@@ -1,0 +1,26 @@
+server:
+  port: 8089
+  servlet:
+    context-path:  /service04
+spring:
+  application:
+    name:  service04
+  config:
+    import: configserver:http://localhost:8888
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/spring_cloud
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.ddl-auto: update
+      hibernate.dialect: org.hibernate.dialect.MySQLDialect
+      hibernate.current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+ # jackson:
+ #   default-property-inclusion: NON_NULL
+#jwt:
+ # secret: AvHGRK8C0ia4uOuxxqPD5DTbWC9F9TWvPStp3pb7ARo0oK2mJ3pd3YG4lxA9i8bj6OTbadweheufHNyG
+ # expiration: 3600000

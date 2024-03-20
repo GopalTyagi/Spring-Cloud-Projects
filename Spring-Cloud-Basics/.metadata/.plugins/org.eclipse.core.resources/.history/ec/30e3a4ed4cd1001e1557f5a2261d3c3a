@@ -1,0 +1,9 @@
+package com.rays.common;
+
+import com.rays.dto.BaseDTO;
+
+public interface BaseServiceInt<T extends BaseDTO> {
+	
+	
+
+}

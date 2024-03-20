@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Basics\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2766026688.index
+\service-05\src\main\resources
+C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Basics\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\65700040.index
+\service-03\src\main\resources

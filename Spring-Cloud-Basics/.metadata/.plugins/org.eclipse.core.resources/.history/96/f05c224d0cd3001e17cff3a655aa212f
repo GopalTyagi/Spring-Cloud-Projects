@@ -1,0 +1,37 @@
+package com.rays.common;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.rays.common.BaseDAOInt;
+import com.rays.dto.BaseDTO;
+
+public abstract class BaseDAOImpl<T extends BaseDTO> implements BaseDAOInt<T>  {
+
+	@PersistenceContext
+	protected EntityManager entityManager;
+
+	public long add(T dto) {
+
+	
+	//	populate(dto);
+		System.out.println("Dto start ");
+		System.out.println(dto);
+		System.out.println("before calling persist method in base dao......gopal");
+		entityManager.persist(dto);
+
+		return dto.getId();
+
+	}
+
+	public void update(T dto) {
+
+	//	populate(dto );
+
+		entityManager.merge(dto);
+
+	}
+	public void delete(T dto) {
+		entityManager.remove(dto);
+	}
+}

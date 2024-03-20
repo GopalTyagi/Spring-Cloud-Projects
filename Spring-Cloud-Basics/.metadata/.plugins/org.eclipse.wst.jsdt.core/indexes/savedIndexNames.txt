@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+C:\Rays softwares\Workspace\Spring-Cloud-Projects\Spring-Cloud-Basics\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1050042363.index
+2851180925.index
+10448896.index
+2576252766.index
+3120250875.index
+821608647.index
+1083323464.index
+3740705259.index
+2734991180.index
+932512990.index
+1421467998.index
+2227838403.index
+74494120.index

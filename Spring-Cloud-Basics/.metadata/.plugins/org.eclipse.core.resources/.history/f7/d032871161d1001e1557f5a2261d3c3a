@@ -1,0 +1,12 @@
+server:
+  host: localhost
+  port: 8080
+spring:cloud.gateway.discovery.locator.enabled=true
+  main:
+    web-application-type: reactive
+  application:
+    name: api-gateway
+  config:
+    import: configserver:http://localhost:8888
+  
+      

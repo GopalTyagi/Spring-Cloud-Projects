@@ -1,0 +1,96 @@
+package com.rays.dao;
+
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.rays.abc.BaseDAOImpl;
+import com.rays.common.BaseDAOInt;
+import com.rays.dto.BaseDTO;
+import com.rays.dto.UserDTO;
+
+@Repository
+public class UserDAOImpl extends BaseDAOImpl<UserDTO> implements UserDAOInt {
+
+	
+	/*
+	 * public UserDTO findByPk(long pk) { UserDTO dto =
+	 * entityManager.find(UserDTO.class, pk); return dto; }
+	 */
+	/*
+	 * public UserDTO findByUniqueKey(String attribute, String value) {
+	 * 
+	 * CriteriaBuilder builder = entityManager.getCriteriaBuilder();
+	 * 
+	 * CriteriaQuery<UserDTO> cq = builder.createQuery(UserDTO.class);
+	 * 
+	 * Root<UserDTO> qRoot = cq.from(UserDTO.class);
+	 * 
+	 * Predicate condition = builder.equal(qRoot.get(attribute), value);
+	 * 
+	 * cq.where(condition);
+	 * 
+	 * TypedQuery<UserDTO> tq = entityManager.createQuery(cq);
+	 * 
+	 * List<UserDTO> list = tq.getResultList();
+	 * 
+	 * UserDTO dto = null;
+	 * 
+	 * if (list.size() > 0) {
+	 * 
+	 * dto = list.get(0);
+	 * 
+	 * }
+	 * 
+	 * return dto; }
+	 */
+
+	/*
+	 * public List search(UserDTO dto, int pageNo, int pageSize) {
+	 * 
+	 * CriteriaBuilder builder = entityManager.getCriteriaBuilder();
+	 * 
+	 * CriteriaQuery<UserDTO> cq = builder.createQuery(UserDTO.class);
+	 * 
+	 * Root<UserDTO> qRoot = cq.from(UserDTO.class);
+	 * 
+	 * List<Predicate> predicateList = new ArrayList<Predicate>();
+	 * 
+	 * if (dto != null) {
+	 * 
+	 * if (dto.getFirstName() != null && dto.getFirstName().length() > 0) {
+	 * predicateList.add(builder.like(qRoot.get("firstName"), dto.getFirstName()));
+	 * } }
+	 * 
+	 * cq.where(predicateList.toArray(new Predicate[predicateList.size()]));
+	 * 
+	 * TypedQuery<UserDTO> tq = entityManager.createQuery(cq);
+	 * 
+	 * if (pageSize > 0) { tq.setFirstResult(pageNo * pageSize);
+	 * tq.setMaxResults(pageSize); }
+	 * 
+	 * List<UserDTO> list = tq.getResultList();
+	 * 
+	 * return list; }
+	 */
+	@Override
+	public UserDTO findByPk(long pk) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDTO findByUniqueKey(String attribute, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List search(UserDTO dto, int pageNo, int pageSize) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

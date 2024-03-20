@@ -1,0 +1,28 @@
+package com.rays.common;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.rays.dto.BaseDTO;
+
+public abstract class BaseServiceImpl<T extends BaseDTO, D extends BaseDAOInt<T>>  {
+
+	@Autowired
+	protected D baseDao;
+	
+	@Transactional(readOnly = false)
+	public long add(T dto) throws Exception {
+		// check duplicate
+		System.out.println("add() run in BaseSecrvice......gopal ");
+		long pk = baseDao.add(dto);
+		return pk;
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED)
+	public void update(T dto) throws Exception {
+		baseDao.update(dto);
+	}
+
+}

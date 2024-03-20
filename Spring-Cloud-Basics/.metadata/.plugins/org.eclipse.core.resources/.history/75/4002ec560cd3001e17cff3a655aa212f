@@ -1,0 +1,46 @@
+package com.rays.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.rays.abc.BaseDAOInt;
+import com.rays.dto.BaseDTO;
+
+public abstract class BaseServiceImpl<T extends BaseDTO, D extends BaseDAOInt<T>>  {
+
+	@Autowired
+	protected D baseDao;
+	
+	@Transactional(readOnly = false)
+	public long add(T dto) throws Exception {
+		// check duplicate
+		System.out.println("add() run in BaseSecrvice......gopal ");
+		long pk = baseDao.add(dto);
+		return pk;
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED)
+	public void update(T dto) throws Exception {
+		baseDao.update(dto);
+	}
+	
+	@Transactional(propagation = Propagation.REQUIRED)
+	public long save(T dto) throws Exception {
+		Long id = dto.getId();
+		if (id != null && id > 0) {
+			update(dto);
+		} else {
+			id = add(dto);
+		}
+		return id;
+	}
+
+	/*
+	 * @Transactional(propagation = Propagation.REQUIRED) public T delete(long id) {
+	 * log.debug("Base Service delete Start"); T dto = findById(id); if (dto ==
+	 * null) { throw new Exception("Record not found"); } baseDao.delete(dto,
+	 * userContext); log.debug("Base Service delete End"); return dto; }
+	 */
+
+}

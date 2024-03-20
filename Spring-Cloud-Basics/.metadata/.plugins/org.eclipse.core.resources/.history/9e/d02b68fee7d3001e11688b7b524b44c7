@@ -1,0 +1,12 @@
+package com.rays.common;
+
+import com.rays.dto.BaseDTO;
+
+public interface BaseServiceInt<T extends BaseDTO> {
+
+	public long add(T dto);
+
+	public void update(T dto);
+
+	public void delete(T dto);
+}
