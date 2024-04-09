@@ -11,3 +11,10 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+
+
+
+
+
+
+      #Author Gopal Tyagi
