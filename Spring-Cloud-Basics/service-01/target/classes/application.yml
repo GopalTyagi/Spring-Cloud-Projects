@@ -6,4 +6,5 @@ spring:
   application:
     name: service01
   config:
-    import: configserver:http://localhost:8888
+    import: configserver:http://localhost:8888 
+      #Author Gopal Tyagi
