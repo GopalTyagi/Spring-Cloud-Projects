@@ -9,3 +9,4 @@ spring:
         git:
           uri: https://github.com/SawanPanwar/Spring-Cloud-Config.git
           clone-on-start: true
+            #Author Gopal Tyagi
