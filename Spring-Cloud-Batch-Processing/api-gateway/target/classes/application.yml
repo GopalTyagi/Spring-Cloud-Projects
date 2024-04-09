@@ -8,3 +8,4 @@ spring:
     name: api-gateway
   config:
     import: configserver:http://localhost:8888 
+      #Author Gopal Tyagi
