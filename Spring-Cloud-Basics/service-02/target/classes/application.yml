@@ -7,3 +7,4 @@ spring:
     name: service02
   config:
     import: configserver:http://localhost:8888
+      #Author Gopal Tyagi
